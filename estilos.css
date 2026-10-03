@@ -1,0 +1,156 @@
+/* Tipografía pública */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+
+/* Estilo para toda la página */
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #222222;
+    margin: 0;
+    padding: 30px;
+}
+
+
+/* TÍTULOS */
+
+h1 {
+    color: #1e3a5f;
+    font-size: 36px;
+}
+
+h2 {
+    color: #315b7d;
+    margin-top: 30px;
+}
+
+
+/* ENLACES */
+
+a {
+    color: #1e3a5f;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #5b8db8;
+    text-decoration: underline;
+}
+
+
+/* MENÚ */
+
+nav {
+    background-color: #1e3a5f;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+nav a {
+    color: white;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    color: #b8d4ee;
+}
+
+
+/* CLASS */
+
+.foto-perfil {
+    width: 300px;
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+
+/* ID */
+
+#habilidades {
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    max-width: 500px;
+}
+
+
+/* JERARQUÍA ID > ELEMENTO */
+
+#habilidades > li {
+    margin-bottom: 8px;
+}
+
+
+/* PRIMER ELEMENTO DE LA LISTA */
+
+#habilidades li:first-child {
+    color: #1e3a5f;
+    font-weight: bold;
+}
+
+
+/* ÚLTIMO ELEMENTO DE LA LISTA */
+
+#habilidades li:last-child {
+    color: #315b7d;
+    font-weight: bold;
+}
+
+
+/* PSEUDOELEMENTO BEFORE */
+
+h2::before {
+    content: "▸ ";
+}
+
+
+/* PSEUDOELEMENTO AFTER */
+
+h2::after {
+    content: "";
+    display: block;
+    width: 60px;
+    border-bottom: 3px solid #315b7d;
+    margin-top: 5px;
+}
+
+
+/* PÁRRAFOS */
+
+p {
+    line-height: 1.6;
+}
+
+
+/* LISTAS */
+
+li {
+    margin-bottom: 6px;
+}
+
+
+/* LÍNEAS */
+
+hr {
+    border: none;
+    border-top: 1px solid #cccccc;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+/* PIE DE PÁGINA */
+
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #e7e7e7;
+    border-radius: 8px;
+    text-align: center;
+}
